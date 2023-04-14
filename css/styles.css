@@ -485,9 +485,6 @@ body {
   gap: 24px;
   align-items: center;
 }
-.footer-field {
-  position: relative;
-}
 .mail-input {
   width: 254px;
   height: 40px;
