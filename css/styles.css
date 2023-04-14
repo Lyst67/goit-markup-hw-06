@@ -485,7 +485,7 @@ body {
   gap: 24px;
   align-items: center;
 }
-.footer-mail {
+.footer-field {
   position: relative;
 }
 .mail-input {
@@ -525,17 +525,6 @@ body {
   transform: translatey(-50%);
   fill: var(--total-white);
 }
-
-/* .subscribe-btn::after {
-  display: inline-block;
-  content: '';
-  width: 24px;
-  height: 20px;
-  margin-left: 16px;
-  background-image: url(../images/plane.svg);
-  background-size: cover;
-  background-repeat: no-repeat;
-} */
 
 /* === Modal Window === */
 .backdrop {
