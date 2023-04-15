@@ -506,10 +506,11 @@ body {
   display: flex;
   min-width: 165px;
   padding: 8px 24px;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 .plane-icon {
+  margin-left: 16px;
   fill: var(--total-white);
 }
 
