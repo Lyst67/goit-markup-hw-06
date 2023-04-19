@@ -206,7 +206,6 @@ body {
   padding-top: 188px;
   padding-bottom: 188px;
   text-align: center;
-  background-color: var(--dark-brand);
   background-image: var(--hero-gradient), url(../images/office.jpg);
   max-width: 1440px;
   margin-left: auto;
@@ -220,7 +219,7 @@ body {
   max-width: 496px;
   margin: 0 auto 48px;
   font-size: 56px;
-  line-height: calc(60 / 56);
+  line-height: 1.07;
   letter-spacing: 0.02em;
   color: var(--white-background);
 }
@@ -298,6 +297,7 @@ body {
 .team-socials {
   display: flex;
   gap: 24px;
+  justify-content: center;
 }
 .team-socials li {
   width: 40px;
@@ -351,7 +351,7 @@ body {
 
 /* === Portfolio === */
 .portfolio {
-  padding-top: 96px;
+  padding-top: 100px;
   padding-bottom: 120px;
 }
 .filter-list {
@@ -442,7 +442,7 @@ body {
 .footer-container {
   display: flex;
 }
-.footer-logo {
+.footer-logo-text {
   color: var(--light);
 }
 .footer-text {
@@ -456,7 +456,6 @@ body {
 .footer-subtitle {
   margin-bottom: 16px;
   font-weight: 500;
-  font-size: 16px;
   color: var(--total-white);
 }
 .footer-socials {
@@ -486,7 +485,7 @@ body {
   align-items: center;
 }
 .mail-input {
-  width: 254px;
+  width: 264px;
   height: 40px;
   padding-left: 16px;
   border-radius: 4px;
